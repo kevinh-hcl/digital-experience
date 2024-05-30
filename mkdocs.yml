@@ -1,6 +1,6 @@
 #Project Information
 site_name: HCL Digital Experience Help Center
-site_url: https://opensource.hcltechsw.com/digital-experience/
+site_url: https://opensource.hcltechsw.com/digital-experience/latest/
 site_description: >-
   A next-gen documentation site for HCL Digital Experience.
 
@@ -82,6 +82,7 @@ plugins:
   - search
   - tags
   - mike:
+      canonical_version: latest
       alias_type: symlink
   - git-revision-date-localized:
       type: date
